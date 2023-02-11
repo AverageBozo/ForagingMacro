@@ -1,16 +1,16 @@
 [
-{
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude", "dxxxxy"],
-  "credits": "The Forge and FML guys, for making this example. dxxxxy for fixing it.",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "foragingmacro",
+    "name": "Foraging Macro",
+    "description": "Foraging macro is a project that allows its user to gain foraging xp without even being at his monitor, at maximum efficiency. It has a private island script and a park one, with anti macro check and chat triggers that change your lobby in case players there notice you are using it. Our code is open-sourced on github and we have multiple tutorial videos to make your instalation as smooth as possible. Enjoy your free foraging xp!",
+    "version": "2.4.1",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["AverageBozo"],
+    "credits": "To Hypixel for making the most hated skill.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]
