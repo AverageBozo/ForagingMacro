@@ -1,5 +1,7 @@
 package com.foragingmacro;
 
+import com.foragingmacro.foragingmacromod.StartCommand;
+import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
@@ -8,7 +10,6 @@ public class MacroModModules {
 
     @Mod.EventHandler
     public void init(FMLPostInitializationEvent event) {
+        ClientCommandHandler.instance.registerCommand(new StartCommand());
     }
-
-
 }
