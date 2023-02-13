@@ -21,10 +21,6 @@ public class PauseThread extends Thread {
         int a = 0x41;
         int d = 0x44;
         long milliseconds = 700;
-        // these slots are slot 1, 2 and 3
-        int treecapSlot = 0x31;
-        int saplingsSlot = 0x32;
-        int boneMealSlot = 0x33;
         while (active) {
             if (Minecraft.getMinecraft().gameSettings.keyBindSneak.isKeyDown()) {
                 active = false;

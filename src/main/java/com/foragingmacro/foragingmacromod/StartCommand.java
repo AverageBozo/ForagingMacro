@@ -20,7 +20,7 @@ public class StartCommand extends CommandBase {
         return 0;
     }
     @Override
-    public void processCommand(ICommandSender sender, String[] args) throws CommandException {
+    public void processCommand(ICommandSender sender, String[] args) {
         try {
             ForagingMacro macro = new ForagingMacro();
         } catch (AWTException e) {
