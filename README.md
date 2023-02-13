@@ -37,3 +37,4 @@ forgegradle   2.1-SNAPSHOT
 &emsp;I have included two useful artifacts that I always use when developing mods:
 - `CopyMod` copies the mod from your [#build](#build) folder into your `%appdata%/.minecraft/mods`
 - `CopyResources` copies the resources folder to your `build/classes/main` so they are accessible in the development environment
+
