@@ -1,6 +1,6 @@
 [
   {
-    "modid": "foragingmacro",
+    "modid": "foragingxpdisplay",
     "name": "Foraging Macro",
     "description": "Foraging macro is a project that allows its user to gain foraging xp without even being at his monitor, at maximum efficiency. It has a private island script and a park one, with anti macro check and chat triggers that change your lobby in case players there notice you are using it. Our code is open-sourced on github and we have multiple tutorial videos to make your instalation as smooth as possible. Enjoy your free foraging xp!",
     "version": "2.4.1",
