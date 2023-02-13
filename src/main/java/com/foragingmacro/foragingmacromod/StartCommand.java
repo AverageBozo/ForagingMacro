@@ -23,9 +23,8 @@ public class StartCommand extends CommandBase {
     public void processCommand(ICommandSender sender, String[] args) {
         try {
             ForagingMacro macro = new ForagingMacro();
+            macro.start();
         } catch (AWTException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
