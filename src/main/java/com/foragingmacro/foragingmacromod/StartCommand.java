@@ -9,11 +9,11 @@ import java.awt.*;
 public class StartCommand extends CommandBase {
     @Override
     public String getCommandName() {
-        return "startforagingmacro";
+        return "forage";
     }
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "startforagingmacro";
+        return "forage";
     }
     @Override
     public int getRequiredPermissionLevel() {
